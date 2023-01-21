@@ -1,0 +1,50 @@
+task 3:
+this task is about completing the 10 levels of the bandit
+Level 0:
+login to the server with given password and enter the next level.
+logout of the server
+Level 1:
+login to the server 
+from the readme file present find the password by reading it
+logout from the server.
+Level 2:
+login to the server
+in the dashed file in the home directory, read the file using the command ./
+logout from the server
+Level 3:
+login to the server
+from the given file using the cat command read and take the password for the next level.
+logout from the server
+Level 4:
+login to the server
+the password in this level was stored in a hidden file in the inhere directory, la command to see all the content of the hidden file and then cat the hidden file.
+logout from the server
+Level 5:
+login to the server
+this time the file is stored in the inhere directory which is in human readable format and of a particular ASCII type value.
+using the find function, find the file and cat it to read the password in it.
+logout from the server
+Level 6:
+login to the server
+this time the file specifications are given which is present in the inhere directory we use the find command with the specified arguements find . -type f -readable -size 1033c ! -executable then first find the file then use the cat command to read the password stored in it.
+logout from the server
+Level 7:
+login to the server
+this time the password is stored somewhere in the server to find the file in which the password is stored we use the find functino with the given parameters find / -user bandit7 -group bandit6 -size 33c | grep -w password then once the file is found use the cat command to read the content.
+logout from the server
+Level 8:
+login to the server
+this time the password is stored somewhere in a large file named with the index "millionth" for finding this index use the grep command, the password is the corresponding value to the word
+logout from the server
+Level 9:
+login to the server
+the password is stored in the data.txt file with some unique value for retrieving the data using the same cat command with some parameters specified.
+logout form the server
+Level 10:
+login to the server
+again the password is somewhere in a collection of string and the password is corresponding to the word which has "==" repeated only once, using the grep command 
+logout from the server
+Level 11:
+login to the server
+this time the password is encoded base64 so the decode command was used here to decode the data and get the password.
+logout from the server
