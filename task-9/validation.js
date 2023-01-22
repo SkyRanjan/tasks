@@ -1,4 +1,4 @@
-const validCredentials = [{username: "user1", password: "pass1"}, {username: "user2", password: "pass2"}];
+const validCredentials = [{username: "user1", password: "p1"}, {username: "user2", password: "p2"}];
 const form = document.querySelector("form");
 form.addEventListener("submit", (event) => {
     event.preventDefault();
