@@ -1,0 +1,4 @@
+task 9:
+in this a login form has to be made in which the validation of the username and the password has to be done along with that the email id has to be one of the inputs.
+in this task we have defined a main html file named index in which we have defined the form the basic format for the entry from the user using the proper tags, along with that the link to the other css file (style.css) was also referred along with that the link for the javascript used for the validation of the html user inputs made.
+there are two valid entries for which this form can accept the credentials user1, p1 and user2, p2 and anyother email id can be used.
